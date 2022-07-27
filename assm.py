@@ -1,6 +1,7 @@
 #an attempteed X86 assmbler
 from commands import *
 list1 = []
+fjoin = " "
 def main():
     with open("in.txt", "r") as infile:
         infile = infile.read()
@@ -23,5 +24,6 @@ def command(a):
             list1.append(Byte)
 
 def output():
-    print(list1)
+    out = fjoin.join(list1)
+    print(out)
 main()
