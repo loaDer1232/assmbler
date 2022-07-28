@@ -24,6 +24,10 @@ def command(a):
             list1.append(Byte)
 
 def output():
+    list1.append("]")
+    list1.insert(0,"[")
     out = fjoin.join(list1)
     print(out)
+    with open("inter.txt", "w") as file:
+        file.write(out)
 main()
