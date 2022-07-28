@@ -1,2 +1,4 @@
+#ignores the cache as this is a pyhton fuction that is macinew uniqie and auto gened
 __pycache__/
+#ignores the output file 
 .bin
